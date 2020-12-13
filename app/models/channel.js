@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
-const chatSchema = new mongoose.Schema({
-  text: {
+const channelSchema = new mongoose.Schema({
+  name: {
     type: String
   },
   owner: {
@@ -13,4 +13,4 @@ const chatSchema = new mongoose.Schema({
   timestamps: true
 })
 
-module.exports = mongoose.model('Chat', chatSchema)
+module.exports = mongoose.model('ChannelCreator', channelSchema)

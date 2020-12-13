@@ -55,7 +55,7 @@ router.get('/chats/:id', requireToken, (req, res, next) => {
 // POST /chats
 router.post('/chats', requireToken, (req, res, next) => {
   // set owner of new chat to be current user
-  req.body.chat.owner = req.user.id
+  req.body.chat.owner = req.user._id
   Chat.create(req.body.chat)
     // respond to succesful `create` with status 201 and JSON of new "chat"
     .then(chat => {
