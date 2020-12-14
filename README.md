@@ -11,9 +11,9 @@ We decided to produce a minimal viable product before completing the Socket Midd
 ---
 
 ### Important Links
-- [Client Repository](https://github.com/Mandeloreann/chat-room-express-2)
-- [Deployed Client](https://mandeloreann.github.io/chat-room/#/)
-- [Deployed API](https://chatroommm.herokuapp.com/)
+- [Client Repository](https://github.com/gitlep1/chat-room-1)
+- [Deployed Client](https://gitlep1.github.io/chat-room-1/#/)
+- [Deployed API](https://mychatroomm.herokuapp.com/)
 
 ---
 

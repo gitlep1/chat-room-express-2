@@ -80,7 +80,7 @@ const server = require('http').createServer(app)
 
 // run API on designated port (4741 in this case) / create server instance
 server.listen(port, () => {
-  console.log('listening on port ' + port)
+  // console.log('listening on port ' + port)
 })
 
 const io = require('socket.io')(server, {
@@ -92,10 +92,10 @@ const io = require('socket.io')(server, {
 // establish socket and create actions
 // console log when a client connects or disconnects from the server
 io.on('connection', (socket) => {
-  console.log('user connected')
+  // console.log('user connected')
   // setup event listeners on socket
   socket.on('disconnect', () => {
-    console.log('user disconnected')
+    // console.log('user disconnected')
   })
 })
 
