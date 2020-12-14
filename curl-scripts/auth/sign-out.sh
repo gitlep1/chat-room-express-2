@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API="https://mychatroomm.herokuapp.com/"
+API="https://mychatroomm.herokuapp.com"
 URL_PATH="/sign-out"
 
 curl "${API}${URL_PATH}/" \
