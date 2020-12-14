@@ -13,4 +13,4 @@ const channelSchema = new mongoose.Schema({
   timestamps: true
 })
 
-module.exports = mongoose.model('ChannelCreator', channelSchema)
+module.exports = mongoose.model('ChannelCreato', channelSchema)
